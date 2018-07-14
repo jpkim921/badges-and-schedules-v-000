@@ -1,6 +1,7 @@
 # Write your code here.
 
 def badge_maker(name)
+  name = "arel"
   return "Hello, my name is #{name}."
 end
 
@@ -15,8 +16,8 @@ def assign_rooms (array)
 end
 
 def printer(attendees)
-  
+
     batch_badge_creator(attendees).each {|person| puts person}
     assign_rooms(attendees.each).each {|person| puts person}
-  
+
 end
